@@ -1,0 +1,41 @@
+{
+  "program": {
+    "candyMachine": "5qwx8zxajyJGnp7hyZ7TE8wENjJsCUPx9fVQMyZhDdHf",
+    "candyMachineCreator": "2cZtHLe2qvAswXwoUMdeHX8MpqY4da51WBgVpC8p2KMm",
+    "collectionMint": "7Rgd1aHkMcTaHfWbXkHSuT7Xcy7CyhxCVGwekRE3Z7Sy"
+  },
+  "items": {
+    "-1": {
+      "name": "Numbers Collection",
+      "image_hash": "09a396028d4e378af5374c9677cc42d1d1726c9dc7a4b284e182ab09bb1cf247",
+      "image_link": "https://nftstorage.link/ipfs/bafybeida4yrohpkit33taajirt655s3wrizaosvlld2ikqnzdj5jccfomq/collection.png",
+      "metadata_hash": "46d9172ab40e9d45dc63fe50e555c78ab2a55919ad8b59c99a94f8d0709fe00f",
+      "metadata_link": "https://nftstorage.link/ipfs/bafybeiagaw6uoox3xty3c62gltwlhpykajor2h7ktzkp7a73ljv45x6kim/collection.json",
+      "onChain": true
+    },
+    "0": {
+      "name": "PIKACHU_SURPRESO",
+      "image_hash": "66b486646e752164a777269b3fdfee5c15fface3384fcb6745bdc89b6dc6d49f",
+      "image_link": "https://nftstorage.link/ipfs/bafybeida4yrohpkit33taajirt655s3wrizaosvlld2ikqnzdj5jccfomq/0.png",
+      "metadata_hash": "190e63dcbd9bbe5ce5e8b0c9fbbd9f40b1970a4480d4a2d8eebf04cbeaa01191",
+      "metadata_link": "https://nftstorage.link/ipfs/bafybeiagaw6uoox3xty3c62gltwlhpykajor2h7ktzkp7a73ljv45x6kim/0.json",
+      "onChain": true
+    },
+    "1": {
+      "name": "CHARMANDER",
+      "image_hash": "0ef6310609be78b55e32cb97ce0d7655c9ca892f22f91cdffeea2df8739e9092",
+      "image_link": "https://nftstorage.link/ipfs/bafybeida4yrohpkit33taajirt655s3wrizaosvlld2ikqnzdj5jccfomq/1.png",
+      "metadata_hash": "c15464818cc7ee16d8b5a5efca96e3ac900ef33c820fa340f2c95356a306a611",
+      "metadata_link": "https://nftstorage.link/ipfs/bafybeiagaw6uoox3xty3c62gltwlhpykajor2h7ktzkp7a73ljv45x6kim/1.json",
+      "onChain": true
+    },
+    "2": {
+      "name": "BULBASOUR",
+      "image_hash": "7233d8d8b03b5fa91d835a3069d25769155db93c9ef91b6066e215ed3895e9d8",
+      "image_link": "https://nftstorage.link/ipfs/bafybeida4yrohpkit33taajirt655s3wrizaosvlld2ikqnzdj5jccfomq/2.png",
+      "metadata_hash": "1c238d0dfe2a9afcd9042208e846c09f755ae2897be80b59f7136f605a9f9a02",
+      "metadata_link": "https://nftstorage.link/ipfs/bafybeiagaw6uoox3xty3c62gltwlhpykajor2h7ktzkp7a73ljv45x6kim/2.json",
+      "onChain": true
+    }
+  }
+}

@@ -1,0 +1,14 @@
+# macOS files
+.DS_Store
+
+# env files
+.env
+
+# npm files
+package-lock.json
+
+# yarn files
+*.lock
+
+# log files
+*.log

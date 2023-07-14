@@ -403,12 +403,14 @@ async function awaitTransactionSignatureConfirmation(txid, timeout, connection, 
             done = true;
             console.error("WS error in setup", txid, e);
         }
+
         while (!done && queryStatus) {
             // eslint-disable-next-line no-loop-func
             (async () => {
                 try {
                     const signatureStatuses = await connection.getSignatureStatuses([txid]);
-                    status = signatureStatuses && signatureStatuses.value[0];
+                    console.log(signatureStatuses)
+                    status = signatureStatuses //&& signatureStatuses.value[0];
                     if (!done) {
                         if (!status) {
                             console.log("REST null result for", txid, status);
@@ -435,7 +437,7 @@ async function awaitTransactionSignatureConfirmation(txid, timeout, connection, 
     });
 
     //@ts-ignore
-    if (connection._signatureSubscriptions[subId]) connection.removeSignatureListener(subId);
+    if (connection._signatureSubscriptions && connection._signatureSubscriptions[subId]) connection.removeSignatureListener(subId);
     done = true;
     console.log("Returning status", status);
     return status;
